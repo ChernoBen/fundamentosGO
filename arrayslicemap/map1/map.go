@@ -16,6 +16,6 @@ func main() {
 		fmt.Printf(" %s (CPF: %d ) \n", chave, valor)
 	}
 	//removendo elemento de um map
-	delete(aprovados, "Maria")
+	delete(aprovados, "Maria") //apresentar map e chave do map
 	fmt.Println(aprovados["Maria"])
 }
