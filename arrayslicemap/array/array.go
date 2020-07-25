@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	//arrays são estruturas homogeneas com mesmo tipo e estátiva não mutavel
+	//arrays são estruturas homogeneas com mesmo tipo e estática não mutavel
 	var notas [3]float64 //array inicializado com 3 indices com valores zerados
 	fmt.Println(notas)
 
