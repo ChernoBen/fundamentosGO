@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 // funcao que recebe multiplos valores dentro de um slice do tipo float
 func media(numeros ...float64) float64 {
 	var total float64
+	fmt.Println(reflect.TypeOf(numeros))
 	for _, valor := range numeros {
 		total += valor
 	}
