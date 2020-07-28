@@ -4,6 +4,7 @@ import "fmt"
 
 // criando um tipo imprivivel
 type imprimivel interface {
+	//metodo que nao aceita argumentos e retorna uma string
 	toString() string
 }
 
