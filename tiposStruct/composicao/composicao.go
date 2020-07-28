@@ -33,3 +33,9 @@ func main() {
 	b.ligarTurbo()
 	b.fazerbaliza()
 }
+
+// obs sobre composicao e interfaces:
+/*
+Pode ser uma otima opção para processamento de dados.
+Defininto tipos de interfaces, posso usar como filtro pra separar determinados dados .
+*/
