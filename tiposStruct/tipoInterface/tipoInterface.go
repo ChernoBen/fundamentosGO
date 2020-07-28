@@ -26,7 +26,7 @@ func main() {
 }
 
 /*
-Go é fortemente tipado mas existem execessoes
+Go é fortemente tipado mas existem exceções
 se eu criar uma interface dinamica(sem tipo),
 posso declarar variaveis como se a linguagem não fosse tipada
 */
